@@ -1,0 +1,40 @@
+.header{
+    justify-content: center;
+    display: flex;
+    color: #000000;
+    // background-color: #333;
+    // border-radius: 5px;
+    // padding: 10px 15px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+   justify-content: center;
+
+  }
+  
+  li {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 255, 8);
+    background: #333;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    ::shadow {
+        box-shadow: 0 0 10px rgba(0, 0, 0)
+    }
+  
+    &:hover {
+      background: #26ff00;
+      color: rgb(255, 255, 255);
+    }
+  
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
