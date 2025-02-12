@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url('./images/matrix.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .header{
     justify-content: center;
     display: flex;
